@@ -1,0 +1,15 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nestor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0064c8;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+
+#imgNestor {
+    border-radius: 35px;
+}
