@@ -4,12 +4,53 @@ body {
 
 .nestor{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #0064c8;
+    color: #fdbb57;
     background-color: aliceblue;
-    text-align: center;
-    align-items: center;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 35px;
+    display: flex;
+    padding: 70px;
+    align-items: flex-start;
+    
+}
+
+.encabezadoDiv{
+    font-size: 10px;
+    text-align: start;
+    display: block;
+}
+
+.biografia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    display: block;
+    color: aqua;
+    margin: 10px;
+}
+
+.lista{
+    text-align: justify;
+    display: block;
+    margin: 10px;
 }
 
 #imgNestor {
     border-radius: 35px;
+    display: grid;
+    transition: 300ms;
+    position: relative;
 }
+
+#imgNestor:hover{
+    transform: scale(1.15);
+}
+
+.nombreH1:hover{
+    transform: scale(1.35);
+    color: red;
+}
+
